@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .alemanha-flag {
+    position: relative;
+    background-color: rgb(194, 38, 38);
+    width: 600px;
+    height: 300px;
+  }
+  
+  .retangulo {
+    position: relative;
+    background-color: rgb(10, 129, 16);
+    width: 450px;
+    height: 200px;
+    top: 50px;
+    left: 75px;
+  }
+  
+  .lua{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 130px;
+    width: 100px;
+    box-shadow: -15px 15px 0 5px white  ;
+    border-radius: 50%;
+  }
